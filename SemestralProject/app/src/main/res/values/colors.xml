@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="qnity_black">#050505</color>
+    <color name="qnity_graphite">#1C1F1B</color>
+    <color name="qnity_lime">#B7FF00</color>
+    <color name="qnity_lime_dark">#719D00</color>
+    <color name="qnity_lime_soft">#F2FFD2</color>
+    <color name="qnity_paper">#EEF1EA</color>
+    <color name="qnity_surface_soft">#F1F3EE</color>
+    <color name="qnity_line">#D8DDD3</color>
+    <color name="qnity_muted">#626861</color>
+    <color name="qnity_success">#236A36</color>
+    <color name="qnity_success_soft">#EAF8E7</color>
+    <color name="qnity_blue">#244964</color>
+</resources>

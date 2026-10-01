@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">PackLabeler</string>
+    <string name="shopfloor_eyebrow">QNITY SHOPFLOOR</string>
+    <string name="pack_labeler">PackLabeler</string>
+    <string name="pack_labeler_description">Příprava obalových štítků a místní tisk.</string>
+
+    <string name="device">Zařízení</string>
+    <string name="printer">Tiskárna</string>
+    <string name="operator">Operátor</string>
+    <string name="demo_device_name">Balicí terminál 04</string>
+    <string name="demo_printer_name">Zebra ZT411</string>
+    <string name="demo_operator_name">Jan Novák</string>
+
+    <string name="pair_device">Přiřazení terminálu</string>
+    <string name="pair_device_description">Zadejte sedmimístný kód zařízení. Přiřazená tiskárna se načte z databáze.</string>
+    <string name="device_code">Kód zařízení</string>
+    <string name="device_code_hint">Např. ABC1234</string>
+    <string name="pair">Přiřadit zařízení</string>
+    <string name="change_device">Změnit zařízení</string>
+
+    <string name="operator_login">Přihlášení operátora</string>
+    <string name="operator_login_description">Naskenujte nebo zadejte osobní číslo pracovníka odpovědného za tisk.</string>
+    <string name="employee_number">Osobní číslo</string>
+    <string name="employee_number_hint">Např. 10428</string>
+    <string name="sign_in">Přihlásit</string>
+    <string name="change_operator">Změnit operátora</string>
+
+    <string name="work_order_title">Pracovní příkaz</string>
+    <string name="work_order_description">Naskenujte pracovní příkaz pro načtení dílu, zákazníka, operací a výchozího balení.</string>
+    <string name="work_order">Pracovní příkaz</string>
+    <string name="work_order_hint">Např. 240184</string>
+    <string name="search">Vyhledat</string>
+    <string name="reset">Resetovat</string>
+
+    <string name="loaded_data">NAČTENÁ DATA</string>
+    <string name="demo_work_order">240184</string>
+    <string name="part_number">Číslo dílu</string>
+    <string name="demo_part_number">QN-84-0192</string>
+    <string name="expiration">Datum expirace</string>
+    <string name="demo_expiration">15. 10. 2027</string>
+    <string name="description">Popis</string>
+    <string name="demo_description">Plastový kryt sestavy</string>
+    <string name="customer">Zákazník</string>
+    <string name="demo_customer">Qnity Automotive</string>
+    <string name="ship_to">Místo dodání</string>
+    <string name="demo_ship_to">Ostrava – centrální sklad</string>
+    <string name="customer_part_number">Číslo dílu zákazníka</string>
+    <string name="demo_customer_part_number">CUS-7741-B</string>
+    <string name="revision">Revize</string>
+    <string name="demo_revision">B03</string>
+    <string name="operation">Operace</string>
+
+    <string name="print_settings">NASTAVENÍ TISKU</string>
+    <string name="package_label">Obalový štítek</string>
+    <string name="package_size">Velikost balení</string>
+    <string name="number_of_labels">Počet štítků</string>
+    <string name="print">Vytisknout</string>
+    <string name="more_prints">Další tisk…</string>
+    <string name="label_preview">Náhled štítku · SM_GENERIC</string>
+    <string name="preview_customer">QNITY AUTOMOTIVE</string>
+    <string name="preview_part">QN-84-0192</string>
+    <string name="preview_meta">WO 240184  ·  QTY 120  ·  REV B03</string>
+
+    <string name="labeling_eyebrow">QNITY LABELING</string>
+    <string name="additional_templates">Další tiskové šablony</string>
+    <string name="quality_print">Tisk kvality</string>
+    <string name="quality_print_description">Jeden kontrolní štítek podle šablony qc_base.</string>
+    <string name="operation_print">Mezioperační štítek</string>
+    <string name="operation_print_description">Jeden štítek pro označení výroby mezi operacemi.</string>
+    <string name="close">Zavřít</string>
+
+    <string name="device_paired_message">Zařízení %1$s bylo spojeno s tiskárnou %2$s.</string>
+    <string name="operator_signed_in_message">Operátor %1$s byl přihlášen.</string>
+    <string name="work_order_loaded_message">Pracovní příkaz %1$s byl načten.</string>
+    <string name="printed_message">Počet štítků: %1$d. Odesláno na %2$s.</string>
+    <string name="select_operation">Vyberte operaci</string>
+</resources>

@@ -1,0 +1,44 @@
+<resources>
+    <style name="Base.Theme.SemestralProject" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/qnity_lime</item>
+        <item name="colorOnPrimary">@color/qnity_black</item>
+        <item name="colorSecondary">@color/qnity_blue</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/qnity_black</item>
+        <item name="colorOutline">@color/qnity_line</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">@color/qnity_black</item>
+        <item name="android:navigationBarColor">@color/qnity_paper</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+
+    <style name="Theme.SemestralProject" parent="Base.Theme.SemestralProject" />
+
+    <style name="Widget.SemestralProject.PrimaryButton" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/qnity_lime</item>
+        <item name="android:textColor">@color/qnity_black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">10dp</item>
+        <item name="android:minHeight">52dp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="Widget.SemestralProject.SecondaryButton" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="strokeColor">@color/qnity_line</item>
+        <item name="android:textColor">@color/qnity_black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">10dp</item>
+        <item name="android:minHeight">52dp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="Widget.SemestralProject.Input" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/qnity_muted</item>
+        <item name="boxCornerRadiusTopStart">9dp</item>
+        <item name="boxCornerRadiusTopEnd">9dp</item>
+        <item name="boxCornerRadiusBottomStart">9dp</item>
+        <item name="boxCornerRadiusBottomEnd">9dp</item>
+        <item name="hintTextColor">@color/qnity_muted</item>
+    </style>
+</resources>

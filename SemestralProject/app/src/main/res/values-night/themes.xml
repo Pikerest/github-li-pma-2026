@@ -6,7 +6,6 @@
         <item name="colorSurface">@color/white</item>
         <item name="colorOnSurface">@color/qnity_black</item>
         <item name="colorOutline">@color/qnity_line</item>
-        <item name="android:fontFamily">sans</item>
         <item name="android:windowLightStatusBar">false</item>
         <item name="android:statusBarColor">@color/qnity_black</item>
         <item name="android:navigationBarColor">@color/qnity_paper</item>

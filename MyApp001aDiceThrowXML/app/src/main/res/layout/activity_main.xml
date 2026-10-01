@@ -33,6 +33,27 @@
         android:textColor="#352060"
         />
 
+    <TextView
+        android:id="@+id/tvScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/score_initial"
+        android:textColor="#352060"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:text="Body za posledních 10 hodů: 0" />
+
+    <TextView
+        android:id="@+id/tvAttempts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/attempts_initial"
+        android:textColor="#352060"
+        android:textSize="16sp"
+        tools:text="Pokusy: 0/10" />
+
     <Button
         android:id="@+id/btnRoll"
         android:layout_width="wrap_content"
@@ -40,5 +61,13 @@
         android:text="Hodit"
         android:textSize="24sp"
         />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/reset_attempts"
+        android:textSize="16sp" />
 
 </LinearLayout>

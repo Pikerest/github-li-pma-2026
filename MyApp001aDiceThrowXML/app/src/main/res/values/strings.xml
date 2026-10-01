@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MyApp001aDiceThrowXML</string>
+    <string name="reset_attempts">Resetovat pokusy</string>
+    <string name="score_initial">Body za posledních 10 hodů: 0</string>
+    <string name="score_format">Body za posledních 10 hodů: %1$d</string>
+    <string name="attempts_initial">Pokusy: 0/10</string>
+    <string name="attempts_format">Pokusy: %1$d/10</string>
 </resources>

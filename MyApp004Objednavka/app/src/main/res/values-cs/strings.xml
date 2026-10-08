@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Tržiště hrdinů Dota 2</string>
+    <string name="order_title">Jakého hrdinu si chcete objednat?</string>
+    <string name="hero_dragon_knight">Dragon Knight</string>
+    <string name="hero_hoodwink">Hoodwink</string>
+    <string name="hero_legion_commander">Legion Commander</string>
+    <string name="hero_dragon_knight_portrait">Portrét hrdiny Dragon Knight</string>
+    <string name="hero_portrait_description">Portrét hrdiny %1$s</string>
+    <string name="extras_title">Vyberte výbavu</string>
+    <string name="extra_arcana">Arcana vzhled (+500 zlatých)</string>
+    <string name="extra_immortal">Immortal zbraň (+300 zlatých)</string>
+    <string name="extra_courier">Osobní kurýr (+150 zlatých)</string>
+    <string name="quantity_title">Počet kusů</string>
+    <string name="quantity_description">Počet hrdinů</string>
+    <string name="order_button">Objednat hrdinu</string>
+    <string name="summary_title">Souhrn objednávky</string>
+    <string name="summary_empty">Zde se zobrazí souhrn vaší objednávky.</string>
+    <string name="extras_none">Žádná</string>
+    <string name="extras_separator">,\u0020</string>
+    <string name="order_summary">Hrdina: %1$s\nPočet: %2$d\nVýbava: %3$s\nCelkem: %4$d zlatých</string>
+    <string name="order_confirmation">Objednávka %1$d× %2$s byla odeslána za %3$d zlatých.</string>
+</resources>

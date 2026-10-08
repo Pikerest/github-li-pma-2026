@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Dota 2 Heldenmarkt</string>
+    <string name="order_title">Welchen Helden möchten Sie bestellen?</string>
+    <string name="hero_dragon_knight">Dragon Knight</string>
+    <string name="hero_hoodwink">Hoodwink</string>
+    <string name="hero_legion_commander">Legion Commander</string>
+    <string name="hero_dragon_knight_portrait">Porträt von Dragon Knight</string>
+    <string name="hero_portrait_description">Porträt von %1$s</string>
+    <string name="extras_title">Ausrüstung wählen</string>
+    <string name="extra_arcana">Arcana-Skin (+500 Gold)</string>
+    <string name="extra_immortal">Immortal-Waffe (+300 Gold)</string>
+    <string name="extra_courier">Persönlicher Kurier (+150 Gold)</string>
+    <string name="quantity_title">Anzahl</string>
+    <string name="quantity_description">Anzahl der Helden</string>
+    <string name="order_button">Held bestellen</string>
+    <string name="summary_title">Bestellübersicht</string>
+    <string name="summary_empty">Ihre Bestellübersicht erscheint hier.</string>
+    <string name="extras_none">Keine</string>
+    <string name="extras_separator">,\u0020</string>
+    <string name="order_summary">Held: %1$s\nAnzahl: %2$d\nAusrüstung: %3$s\nGesamtpreis: %4$d Gold</string>
+    <string name="order_confirmation">Die Bestellung von %1$d× %2$s für %3$d Gold wurde gesendet.</string>
+</resources>

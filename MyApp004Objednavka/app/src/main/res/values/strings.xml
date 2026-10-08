@@ -1,3 +1,22 @@
 <resources>
-    <string name="app_name">MyApp004Objednavka</string>
+    <string name="app_name">Dota 2 Hero Market</string>
+    <string name="order_title">Which hero do you want to order?</string>
+    <string name="hero_dragon_knight">Dragon Knight</string>
+    <string name="hero_hoodwink">Hoodwink</string>
+    <string name="hero_legion_commander">Legion Commander</string>
+    <string name="hero_dragon_knight_portrait">Dragon Knight portrait</string>
+    <string name="hero_portrait_description">%1$s portrait</string>
+    <string name="extras_title">Choose equipment</string>
+    <string name="extra_arcana">Arcana skin (+500 gold)</string>
+    <string name="extra_immortal">Immortal weapon (+300 gold)</string>
+    <string name="extra_courier">Personal courier (+150 gold)</string>
+    <string name="quantity_title">Quantity</string>
+    <string name="quantity_description">Number of heroes</string>
+    <string name="order_button">Order hero</string>
+    <string name="summary_title">Order summary</string>
+    <string name="summary_empty">Your order summary will appear here.</string>
+    <string name="extras_none">None</string>
+    <string name="extras_separator">,\u0020</string>
+    <string name="order_summary">Hero: %1$s\nQuantity: %2$d\nEquipment: %3$s\nTotal: %4$d gold</string>
+    <string name="order_confirmation">Order for %1$d× %2$s was submitted for %3$d gold.</string>
 </resources>

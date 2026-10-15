@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Dota 2 objednávka V2</string>
+    <string name="order_header">Objednávka Dota 2 hrdiny</string>
+    <string name="order_question">Jakého hrdinu chcete objednat?</string>
+    <string name="hero_dragon_knight">Dragon Knight</string>
+    <string name="hero_hoodwink">Hoodwink</string>
+    <string name="hero_legion_commander">Legion Commander</string>
+    <string name="unknown_hero">Neznámý hrdina</string>
+    <string name="hero_dragon_knight_portrait">Portrét hrdiny Dragon Knight</string>
+    <string name="hero_portrait_description">Portrét hrdiny %1$s</string>
+    <string name="extra_arcana">Arcana vzhled (+500 zlatých)</string>
+    <string name="extra_immortal">Immortal zbraň (+300 zlatých)</string>
+    <string name="extra_courier">Osobní kurýr (+150 zlatých)</string>
+    <string name="no_extras">žádná</string>
+    <string name="initial_price">Celkem: 0 zlatých</string>
+    <string name="total_price">Celkem: %1$d zlatých</string>
+    <string name="order_button">Objednat hrdinu</string>
+
+    <string name="summary_header">Rekapitulace objednávky</string>
+    <string name="summary_selected_hero">Vybraný hrdina: %1$s</string>
+    <string name="summary_selected_hero_preview">Vybraný hrdina:</string>
+    <string name="summary_extras">Příplatková výbava:\n%1$s</string>
+    <string name="summary_extras_preview">Příplatková výbava:\n– žádná</string>
+    <string name="final_price">Celková cena: %1$d zlatých</string>
+    <string name="final_price_preview">Celková cena: 0 zlatých</string>
+    <string name="terms_title">Pravidla tržiště</string>
+    <string name="terms_text">1. VÝBĚR HRDINY\nObjednávka se vztahuje na jednoho vybraného hrdinu a volitelnou kosmetickou výbavu. Každý hrdina má vlastní základní cenu.\n\n2. DOPLŇKOVÁ VÝBAVA\nArcana vzhled, Immortal zbraň a osobní kurýr jsou volitelné položky. Jejich ceny se přičítají k ceně hrdiny.\n\n3. CENA OBJEDNÁVKY\nCelková cena se po každé změně automaticky přepočítává. Virtuální měna použitá v této demonstrační aplikaci nemá skutečnou peněžní hodnotu.\n\n4. POTVRZENÍ\nPřechodem na rekapitulaci uživatel potvrzuje pouze kontrolu vybraných položek. Nejde o skutečnou obchodní transakci.\n\n5. DOSTUPNOST\nVšechny postavy a předměty v aplikaci slouží výhradně jako ukázková data pro školní projekt.\n\n6. NÁVRAT K ÚPRAVĚ\nPomocí tlačítka pod tímto textem se lze vrátit na první obrazovku a objednávku dále upravit.\n\n7. ZÁVĚREČNÉ USTANOVENÍ\nOdeslaná data jsou zatím použita pouze pro zobrazení rekapitulace a bez databáze se trvale neukládají.</string>
+    <string name="back_to_editing">Zpět k úpravě</string>
+</resources>

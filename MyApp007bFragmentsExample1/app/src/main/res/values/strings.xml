@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Dota 2 Companion</string>
+    <string name="app_subtitle">Rychlý pomocník před další hrou</string>
+    <string name="heroes">Hrdinové</string>
+    <string name="items">Předměty</string>
+    <string name="tips">Tipy</string>
+</resources>

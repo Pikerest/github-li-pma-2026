@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="dota_background">#101419</color>
+    <color name="dota_surface">#1A2027</color>
+    <color name="dota_card">#232B34</color>
+    <color name="dota_red">#C23C2A</color>
+    <color name="dota_red_dark">#842B22</color>
+    <color name="dota_gold">#D6B56D</color>
+    <color name="dota_text_primary">#F3F0EA</color>
+    <color name="dota_text_secondary">#B8BEC6</color>
+    <color name="dota_strength">#D95A4E</color>
+    <color name="dota_intelligence">#59A7D9</color>
+    <color name="dota_agility">#65B96E</color>
+</resources>

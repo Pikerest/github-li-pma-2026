@@ -54,7 +54,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="sans-serif-black"
                             android:letterSpacing="0.08"
                             android:text="@string/shopfloor_eyebrow"
                             android:textColor="@color/qnity_lime"
@@ -64,7 +63,6 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="3dp"
-                            android:fontFamily="sans-serif-black"
                             android:text="@string/pack_labeler"
                             android:textColor="@color/white"
                             android:textSize="38sp"
@@ -77,6 +75,19 @@
                             android:text="@string/pack_labeler_description"
                             android:textColor="#C9CEC5"
                             android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/dataSourceMode"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="12dp"
+                            android:background="@color/qnity_graphite"
+                            android:paddingHorizontal="10dp"
+                            android:paddingVertical="6dp"
+                            android:text="@string/data_source_demo"
+                            android:textColor="@color/qnity_lime"
+                            android:textSize="11sp"
+                            android:textStyle="bold" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -95,7 +106,7 @@
                             android:gravity="center_vertical"
                             android:paddingHorizontal="12dp"
                             android:paddingVertical="9dp">
-                            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:fontFamily="sans-serif-black" android:text="@string/device" android:textAllCaps="true" android:textColor="#9EA49C" android:textSize="10sp" />
+                            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/device" android:textAllCaps="true" android:textColor="#9EA49C" android:textSize="10sp" android:textStyle="bold" />
                             <TextView android:id="@+id/deviceName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/demo_device_name" android:textColor="@color/white" android:textSize="13sp" android:textStyle="bold" />
                         </LinearLayout>
 
@@ -107,7 +118,7 @@
                             android:gravity="center_vertical"
                             android:paddingHorizontal="12dp"
                             android:paddingVertical="9dp">
-                            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:fontFamily="sans-serif-black" android:text="@string/printer" android:textAllCaps="true" android:textColor="#9EA49C" android:textSize="10sp" />
+                            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/printer" android:textAllCaps="true" android:textColor="#9EA49C" android:textSize="10sp" android:textStyle="bold" />
                             <TextView android:id="@+id/printerName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/demo_printer_name" android:textColor="@color/white" android:textSize="13sp" android:textStyle="bold" />
                         </LinearLayout>
 
@@ -122,7 +133,7 @@
                             android:paddingVertical="9dp"
                             android:visibility="gone"
                             tools:visibility="visible">
-                            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:fontFamily="sans-serif-black" android:text="@string/operator" android:textAllCaps="true" android:textColor="#9EA49C" android:textSize="10sp" />
+                            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/operator" android:textAllCaps="true" android:textColor="#9EA49C" android:textSize="10sp" android:textStyle="bold" />
                             <TextView android:id="@+id/operatorName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/demo_operator_name" android:textColor="@color/white" android:textSize="13sp" android:textStyle="bold" />
                         </LinearLayout>
                     </LinearLayout>
@@ -141,7 +152,7 @@
                 app:strokeColor="#B9DDB8"
                 app:strokeWidth="1dp"
                 tools:visibility="visible">
-                <TextView android:id="@+id/alertText" android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="sans-serif-medium" android:padding="14dp" android:textColor="@color/qnity_success" android:textSize="14sp" tools:text="Zařízení bylo úspěšně připojeno." />
+                <TextView android:id="@+id/alertText" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="14dp" android:textColor="@color/qnity_success" android:textSize="14sp" tools:text="Zařízení bylo úspěšně připojeno." />
             </com.google.android.material.card.MaterialCardView>
 
             <com.google.android.material.card.MaterialCardView
@@ -157,10 +168,10 @@
                 <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="18dp">
                     <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal">
                         <com.google.android.material.card.MaterialCardView android:layout_width="42dp" android:layout_height="42dp" app:cardBackgroundColor="@color/qnity_lime" app:cardCornerRadius="21dp" app:cardElevation="0dp">
-                            <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:fontFamily="sans-serif-black" android:gravity="center" android:text="1" android:textColor="@color/qnity_black" android:textSize="20sp" />
+                            <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center" android:text="1" android:textColor="@color/qnity_black" android:textSize="20sp" android:textStyle="bold" />
                         </com.google.android.material.card.MaterialCardView>
                         <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginStart="13dp" android:layout_weight="1" android:orientation="vertical">
-                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif-black" android:text="@string/pair_device" android:textColor="@color/qnity_black" android:textSize="22sp" />
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pair_device" android:textColor="@color/qnity_black" android:textSize="22sp" android:textStyle="bold" />
                             <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/pair_device_description" android:textColor="@color/qnity_muted" android:textSize="14sp" />
                         </LinearLayout>
                     </LinearLayout>
@@ -168,6 +179,8 @@
                         <com.google.android.material.textfield.TextInputEditText android:id="@+id/deviceCodeInput" android:layout_width="match_parent" android:layout_height="wrap_content" android:imeOptions="actionDone" android:inputType="textCapCharacters" android:maxLength="7" android:minHeight="54dp" android:singleLine="true" android:textSize="17sp" tools:text="ABC1234" />
                     </com.google.android.material.textfield.TextInputLayout>
                     <com.google.android.material.button.MaterialButton android:id="@+id/pairDeviceButton" style="@style/Widget.SemestralProject.PrimaryButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:enabled="false" android:text="@string/pair" />
+                    <com.google.android.material.button.MaterialButton android:id="@+id/databaseSettingsButton" style="@style/Widget.SemestralProject.SecondaryButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/database_settings" />
+                    <com.google.android.material.button.MaterialButton android:id="@+id/savedJobsHomeButton" style="@style/Widget.SemestralProject.SecondaryButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/saved_jobs" />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 
@@ -186,10 +199,10 @@
                 <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="18dp">
                     <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal">
                         <com.google.android.material.card.MaterialCardView android:layout_width="42dp" android:layout_height="42dp" app:cardBackgroundColor="@color/qnity_lime" app:cardCornerRadius="21dp" app:cardElevation="0dp">
-                            <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:fontFamily="sans-serif-black" android:gravity="center" android:text="2" android:textColor="@color/qnity_black" android:textSize="20sp" />
+                            <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center" android:text="2" android:textColor="@color/qnity_black" android:textSize="20sp" android:textStyle="bold" />
                         </com.google.android.material.card.MaterialCardView>
                         <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginStart="13dp" android:layout_weight="1" android:orientation="vertical">
-                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif-black" android:text="@string/operator_login" android:textColor="@color/qnity_black" android:textSize="22sp" />
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/operator_login" android:textColor="@color/qnity_black" android:textSize="22sp" android:textStyle="bold" />
                             <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/operator_login_description" android:textColor="@color/qnity_muted" android:textSize="14sp" />
                         </LinearLayout>
                     </LinearLayout>
@@ -218,10 +231,10 @@
                 <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="18dp">
                     <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal">
                         <com.google.android.material.card.MaterialCardView android:layout_width="42dp" android:layout_height="42dp" app:cardBackgroundColor="@color/qnity_lime" app:cardCornerRadius="21dp" app:cardElevation="0dp">
-                            <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:fontFamily="sans-serif-black" android:gravity="center" android:text="3" android:textColor="@color/qnity_black" android:textSize="20sp" />
+                            <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center" android:text="3" android:textColor="@color/qnity_black" android:textSize="20sp" android:textStyle="bold" />
                         </com.google.android.material.card.MaterialCardView>
                         <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginStart="13dp" android:layout_weight="1" android:orientation="vertical">
-                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif-black" android:text="@string/work_order_title" android:textColor="@color/qnity_black" android:textSize="22sp" />
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/work_order_title" android:textColor="@color/qnity_black" android:textSize="22sp" android:textStyle="bold" />
                             <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/work_order_description" android:textColor="@color/qnity_muted" android:textSize="14sp" />
                         </LinearLayout>
                     </LinearLayout>
@@ -250,8 +263,8 @@
                 <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
                     <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal">
                         <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical">
-                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif-black" android:letterSpacing="0.07" android:text="@string/loaded_data" android:textColor="@color/qnity_lime_dark" android:textSize="10sp" />
-                            <TextView android:id="@+id/loadedWorkOrder" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:fontFamily="sans-serif-black" android:text="@string/demo_work_order" android:textColor="@color/qnity_black" android:textSize="24sp" />
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:letterSpacing="0.07" android:text="@string/loaded_data" android:textColor="@color/qnity_lime_dark" android:textSize="10sp" android:textStyle="bold" />
+                            <TextView android:id="@+id/loadedWorkOrder" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="@string/demo_work_order" android:textColor="@color/qnity_black" android:textSize="24sp" android:textStyle="bold" />
                         </LinearLayout>
                         <com.google.android.material.button.MaterialButton android:id="@+id/resetWorkOrderButton" style="@style/Widget.SemestralProject.SecondaryButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="44dp" android:text="@string/reset" />
                     </LinearLayout>
@@ -259,31 +272,31 @@
                     <GridLayout android:id="@+id/dataGrid" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:alignmentMode="alignMargins" android:columnCount="1" android:useDefaultMargins="true">
                         <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:background="@color/qnity_surface_soft" android:orientation="vertical" android:padding="11dp">
                             <TextView style="@style/TextAppearance.Material3.LabelSmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/part_number" android:textColor="@color/qnity_muted" android:textStyle="bold" />
-                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/demo_part_number" android:textColor="@color/qnity_black" android:textSize="15sp" android:textStyle="bold" />
+                            <TextView android:id="@+id/partNumberValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/demo_part_number" android:textColor="@color/qnity_black" android:textSize="15sp" android:textStyle="bold" />
                         </LinearLayout>
                         <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:background="@color/qnity_surface_soft" android:orientation="vertical" android:padding="11dp">
                             <TextView style="@style/TextAppearance.Material3.LabelSmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/expiration" android:textColor="@color/qnity_muted" android:textStyle="bold" />
-                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/demo_expiration" android:textColor="@color/qnity_black" android:textSize="15sp" android:textStyle="bold" />
+                            <TextView android:id="@+id/expirationValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/demo_expiration" android:textColor="@color/qnity_black" android:textSize="15sp" android:textStyle="bold" />
                         </LinearLayout>
                         <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:background="@color/qnity_surface_soft" android:orientation="vertical" android:padding="11dp">
                             <TextView style="@style/TextAppearance.Material3.LabelSmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/description" android:textColor="@color/qnity_muted" android:textStyle="bold" />
-                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/demo_description" android:textColor="@color/qnity_black" android:textSize="15sp" android:textStyle="bold" />
+                            <TextView android:id="@+id/descriptionValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/demo_description" android:textColor="@color/qnity_black" android:textSize="15sp" android:textStyle="bold" />
                         </LinearLayout>
                         <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:background="@color/qnity_surface_soft" android:orientation="vertical" android:padding="11dp">
                             <TextView style="@style/TextAppearance.Material3.LabelSmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/customer" android:textColor="@color/qnity_muted" android:textStyle="bold" />
-                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/demo_customer" android:textColor="@color/qnity_black" android:textSize="15sp" android:textStyle="bold" />
+                            <TextView android:id="@+id/customerValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/demo_customer" android:textColor="@color/qnity_black" android:textSize="15sp" android:textStyle="bold" />
                         </LinearLayout>
                         <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:background="@color/qnity_surface_soft" android:orientation="vertical" android:padding="11dp">
                             <TextView style="@style/TextAppearance.Material3.LabelSmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ship_to" android:textColor="@color/qnity_muted" android:textStyle="bold" />
-                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/demo_ship_to" android:textColor="@color/qnity_black" android:textSize="15sp" android:textStyle="bold" />
+                            <TextView android:id="@+id/shipToValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/demo_ship_to" android:textColor="@color/qnity_black" android:textSize="15sp" android:textStyle="bold" />
                         </LinearLayout>
                         <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:background="@color/qnity_surface_soft" android:orientation="vertical" android:padding="11dp">
                             <TextView style="@style/TextAppearance.Material3.LabelSmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/customer_part_number" android:textColor="@color/qnity_muted" android:textStyle="bold" />
-                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/demo_customer_part_number" android:textColor="@color/qnity_black" android:textSize="15sp" android:textStyle="bold" />
+                            <TextView android:id="@+id/customerPartValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/demo_customer_part_number" android:textColor="@color/qnity_black" android:textSize="15sp" android:textStyle="bold" />
                         </LinearLayout>
                         <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:background="@color/qnity_surface_soft" android:orientation="vertical" android:padding="11dp">
                             <TextView style="@style/TextAppearance.Material3.LabelSmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/revision" android:textColor="@color/qnity_muted" android:textStyle="bold" />
-                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/demo_revision" android:textColor="@color/qnity_black" android:textSize="15sp" android:textStyle="bold" />
+                            <TextView android:id="@+id/revisionValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/demo_revision" android:textColor="@color/qnity_black" android:textSize="15sp" android:textStyle="bold" />
                         </LinearLayout>
                         <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:background="@color/qnity_surface_soft" android:orientation="vertical" android:padding="7dp">
                             <TextView style="@style/TextAppearance.Material3.LabelSmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="4dp" android:text="@string/operation" android:textColor="@color/qnity_muted" android:textStyle="bold" />
@@ -306,8 +319,8 @@
                 app:strokeWidth="1dp"
                 tools:visibility="visible">
                 <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
-                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif-black" android:letterSpacing="0.07" android:text="@string/print_settings" android:textColor="@color/qnity_lime_dark" android:textSize="10sp" />
-                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:fontFamily="sans-serif-black" android:text="@string/package_label" android:textColor="@color/qnity_black" android:textSize="24sp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:letterSpacing="0.07" android:text="@string/print_settings" android:textColor="@color/qnity_lime_dark" android:textSize="10sp" android:textStyle="bold" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="@string/package_label" android:textColor="@color/qnity_black" android:textSize="24sp" android:textStyle="bold" />
                     <LinearLayout android:id="@+id/printFields" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:baselineAligned="false" android:orientation="vertical">
                         <com.google.android.material.textfield.TextInputLayout style="@style/Widget.SemestralProject.Input" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/package_size">
                             <com.google.android.material.textfield.TextInputEditText android:id="@+id/packageSizeInput" android:layout_width="match_parent" android:layout_height="wrap_content" android:imeOptions="actionNext" android:inputType="number" android:minHeight="54dp" android:singleLine="true" android:text="120" android:textSize="17sp" />
@@ -320,20 +333,37 @@
                         <com.google.android.material.button.MaterialButton android:id="@+id/printButton" style="@style/Widget.SemestralProject.PrimaryButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="58dp" android:text="@string/print" android:textSize="18sp" />
                         <com.google.android.material.button.MaterialButton android:id="@+id/morePrintsButton" style="@style/Widget.SemestralProject.SecondaryButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/more_prints" />
                     </LinearLayout>
+                    <LinearLayout android:id="@+id/crudActions" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:baselineAligned="false" android:orientation="vertical">
+                        <com.google.android.material.button.MaterialButton android:id="@+id/saveDraftButton" style="@style/Widget.SemestralProject.SecondaryButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/save_draft" />
+                        <com.google.android.material.button.MaterialButton android:id="@+id/savedJobsButton" style="@style/Widget.SemestralProject.SecondaryButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/saved_jobs" />
+                    </LinearLayout>
                     <com.google.android.material.card.MaterialCardView android:id="@+id/labelPreview" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:visibility="gone" app:cardBackgroundColor="#F5F6F2" app:cardCornerRadius="11dp" app:cardElevation="0dp" app:strokeColor="@color/qnity_line" app:strokeWidth="1dp" tools:visibility="visible">
                         <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_horizontal" android:orientation="vertical" android:padding="14dp">
                             <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" app:cardBackgroundColor="@color/white" app:cardCornerRadius="2dp" app:cardElevation="2dp" app:strokeColor="#222222" app:strokeWidth="1dp">
                                 <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="18dp">
-                                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif-black" android:text="@string/preview_customer" android:textColor="@color/qnity_black" android:textSize="14sp" />
-                                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:fontFamily="sans-serif-black" android:text="@string/preview_part" android:textColor="@color/qnity_black" android:textSize="30sp" />
-                                    <TextView android:id="@+id/previewMeta" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:fontFamily="monospace" android:text="@string/preview_meta" android:textColor="@color/qnity_black" android:textSize="13sp" android:textStyle="bold" />
+                                    <TextView android:id="@+id/previewCustomer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/preview_customer" android:textColor="@color/qnity_black" android:textSize="14sp" android:textStyle="bold" />
+                                    <TextView android:id="@+id/previewPart" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/preview_part" android:textColor="@color/qnity_black" android:textSize="30sp" android:textStyle="bold" />
+                                    <TextView android:id="@+id/previewMeta" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/preview_meta" android:textColor="@color/qnity_black" android:textSize="13sp" android:textStyle="bold" />
                                 </LinearLayout>
                             </com.google.android.material.card.MaterialCardView>
-                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:text="@string/label_preview" android:textColor="@color/qnity_muted" android:textSize="12sp" />
+                            <TextView android:id="@+id/previewCaption" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:text="@string/label_preview" android:textColor="@color/qnity_muted" android:textSize="12sp" />
                         </LinearLayout>
                     </com.google.android.material.card.MaterialCardView>
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.progressindicator.CircularProgressIndicator
+        android:id="@+id/busyIndicator"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:elevation="12dp"
+        android:visibility="gone"
+        app:indicatorColor="@color/qnity_lime_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
 </androidx.constraintlayout.widget.ConstraintLayout>

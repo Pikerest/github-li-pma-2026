@@ -13,5 +13,7 @@
     <color name="qnity_muted">#626861</color>
     <color name="qnity_success">#236A36</color>
     <color name="qnity_success_soft">#EAF8E7</color>
+    <color name="qnity_error">#9B1C1C</color>
+    <color name="qnity_error_soft">#FDECEC</color>
     <color name="qnity_blue">#244964</color>
 </resources>

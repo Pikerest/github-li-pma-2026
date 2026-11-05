@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MyApp008bDataStore</string>
+    <string name="navigation_dashboard">Přehled</string>
+    <string name="navigation_settings">Nastavení</string>
+    <string name="dashboard_title">Hráčský profil</string>
+    <string name="dashboard_nickname">Přezdívka: %1$s</string>
+    <string name="dashboard_nickname_empty">Přezdívka: zatím nenastavena</string>
+    <string name="dashboard_hardcore_enabled">Hardcore režim: zapnutý</string>
+    <string name="dashboard_hardcore_disabled">Hardcore režim: vypnutý</string>
+    <string name="settings_title">Nastavení profilu</string>
+    <string name="nickname_hint">Zadej herní přezdívku</string>
+    <string name="hardcore_mode">Zapnout Hardcore režim</string>
+    <string name="save_datastore">Uložit (DataStore)</string>
+    <string name="saving">Probíhá neblokující ukládání…</string>
+    <string name="datastore_saved">Uloženo moderní cestou</string>
+    <string name="datastore_save_failed">Uložení se nezdařilo</string>
+    <string name="undo">Zpět</string>
+    <string name="undo_finished">Předchozí hodnoty byly obnoveny</string>
+    <string name="interactive_test_title">Test plynulosti během ukládání</string>
+    <string name="interactive_test_value">Hodnota slideru: %1$d</string>
+    <string name="interactive_test_value_initial">Hodnota slideru: 50</string>
+</resources>

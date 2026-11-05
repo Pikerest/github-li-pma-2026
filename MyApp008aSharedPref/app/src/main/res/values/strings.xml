@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MyApp008aSharedPref</string>
+    <string name="navigation_dashboard">Přehled</string>
+    <string name="navigation_settings">Nastavení</string>
+    <string name="dashboard_title">Hráčský profil</string>
+    <string name="dashboard_nickname">Přezdívka: %1$s</string>
+    <string name="dashboard_nickname_empty">Přezdívka: zatím nenastavena</string>
+    <string name="dashboard_hardcore_enabled">Hardcore režim: zapnutý</string>
+    <string name="dashboard_hardcore_disabled">Hardcore režim: vypnutý</string>
+    <string name="settings_title">Nastavení profilu</string>
+    <string name="nickname_hint">Zadej herní přezdívku</string>
+    <string name="hardcore_mode">Zapnout Hardcore režim</string>
+    <string name="save_shared_preferences">Uložit (stará metoda)</string>
+    <string name="responsiveness_indicator">Ukazatel odezvy hlavního vlákna</string>
+    <string name="shared_preferences_saved">Uloženo pomocí SharedPreferences</string>
+</resources>

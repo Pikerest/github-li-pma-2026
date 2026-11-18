@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MyNoteHub</string>
+    <string name="notes_title">My notes</string>
+    <string name="filter_by">Filter by category and tag</string>
+    <string name="category_filter">Category filter</string>
+    <string name="tag_filter">Tag filter</string>
+    <string name="all_categories">All categories</string>
+    <string name="all_tags">All tags</string>
+    <string name="empty_notes">No notes</string>
+    <string name="add_note">Add note</string>
+    <string name="edit_note">Edit note</string>
+    <string name="note_title">Note title</string>
+    <string name="note_content">Note content</string>
+    <string name="category">Category</string>
+    <string name="tag">Tag</string>
+    <string name="category_value">Category: %1$s</string>
+    <string name="tag_value">Tag: %1$s</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="required_field">Required field</string>
+    <string name="delete_note_title">Delete note?</string>
+    <string name="delete_note_message">Do you really want to delete “%1$s”?</string>
+</resources>

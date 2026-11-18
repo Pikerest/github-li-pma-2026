@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MyNoteHub</string>
+    <string name="notes_title">Moje poznámky</string>
+    <string name="filter_by">Filtrovat podle kategorie a štítku</string>
+    <string name="category_filter">Filtr kategorií</string>
+    <string name="tag_filter">Filtr štítků</string>
+    <string name="all_categories">Všechny kategorie</string>
+    <string name="all_tags">Všechny štítky</string>
+    <string name="empty_notes">Žádné poznámky</string>
+    <string name="add_note">Přidat poznámku</string>
+    <string name="edit_note">Upravit poznámku</string>
+    <string name="note_title">Název poznámky</string>
+    <string name="note_content">Obsah poznámky</string>
+    <string name="category">Kategorie</string>
+    <string name="tag">Štítek</string>
+    <string name="category_value">Kategorie: %1$s</string>
+    <string name="tag_value">Štítek: %1$s</string>
+    <string name="save">Uložit</string>
+    <string name="cancel">Zrušit</string>
+    <string name="edit">Upravit</string>
+    <string name="delete">Smazat</string>
+    <string name="required_field">Povinné pole</string>
+    <string name="delete_note_title">Smazat poznámku?</string>
+    <string name="delete_note_message">Opravdu chcete smazat poznámku „%1$s“?</string>
+</resources>

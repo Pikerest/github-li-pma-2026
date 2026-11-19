@@ -18,6 +18,12 @@ interface NoteDao {
     @Query("SELECT * FROM note_table WHERE id = :id LIMIT 1")
     suspend fun getNoteById(id: Int): Note?
 
+    @Query("SELECT DISTINCT category FROM note_table WHERE TRIM(category) <> '' ORDER BY category COLLATE NOCASE")
+    suspend fun getCategories(): List<String>
+
+    @Query("SELECT DISTINCT tag FROM note_table WHERE TRIM(tag) <> '' ORDER BY tag COLLATE NOCASE")
+    suspend fun getTags(): List<String>
+
     @Update
     suspend fun update(note: Note)
 

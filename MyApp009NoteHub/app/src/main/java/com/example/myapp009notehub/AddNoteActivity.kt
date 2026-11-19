@@ -1,6 +1,7 @@
 package com.example.myapp009notehub
 
 import android.os.Bundle
+import android.widget.ArrayAdapter
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import com.example.myapp009notehub.data.Note
@@ -24,8 +25,11 @@ class AddNoteActivity : AppCompatActivity() {
             if (noteId == 0) R.string.add_note else R.string.edit_note
         )
 
-        if (noteId != 0) {
-            lifecycleScope.launch {
+        lifecycleScope.launch {
+            binding.editTextCategory.setAdapter(createSuggestionsAdapter(noteDao.getCategories()))
+            binding.editTextTag.setAdapter(createSuggestionsAdapter(noteDao.getTags()))
+
+            if (noteId != 0) {
                 existingNote = noteDao.getNoteById(noteId)
                 existingNote?.let(::showNote)
             }
@@ -38,8 +42,12 @@ class AddNoteActivity : AppCompatActivity() {
     private fun showNote(note: Note) {
         binding.editTextTitle.setText(note.title)
         binding.editTextContent.setText(note.content)
-        binding.editTextCategory.setText(note.category)
-        binding.editTextTag.setText(note.tag)
+        binding.editTextCategory.setText(note.category, false)
+        binding.editTextTag.setText(note.tag, false)
+    }
+
+    private fun createSuggestionsAdapter(items: List<String>): ArrayAdapter<String> {
+        return ArrayAdapter(this, android.R.layout.simple_dropdown_item_1line, items)
     }
 
     private fun saveNote() {
